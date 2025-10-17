@@ -161,11 +161,11 @@ position = Vector2(15, 1)
 shape = SubResource("RectangleShape2D_r0tex")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(15.142858, -0.75)
-scale = Vector2(0.92857146, 0.9285714)
+position = Vector2(15.1429, -0.75)
+scale = Vector2(0.928571, 0.928571)
 sprite_frames = SubResource("SpriteFrames_neeqg")
 animation = &"run"
-frame_progress = 0.5212764
+frame_progress = 0.521276
 
 [node name="CayoteJumpTimer" type="Timer" parent="."]
 wait_time = 0.2
@@ -173,3 +173,4 @@ one_shot = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(12, -16)
+scale = Vector2(1.045, 1.045)
